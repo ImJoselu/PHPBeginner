@@ -1,53 +1,51 @@
-📅 Lista de Tareas en PHP
+Lista de Tareas en PHP
 
-Este es un proyecto sencillo de una Lista de Tareas desarrollado en PHP, sin necesidad de bases de datos, utilizando archivos de texto para almacenar las tareas. Es ideal para principiantes que quieren aprender los conceptos básicos de PHP, manejo de formularios y manipulación de archivos.
+Este es un proyecto simple de una Lista de Tareas utilizando PHP puro.
+No requiere frameworks ni bases de datos al inicio, pero se puede expandir para usarlas más adelante.
 
-💡 Características
+Características 📌
 
-Agregar tareas a una lista.
+Agregar tareas.
 
-Mostrar las tareas almacenadas.
+Mostrar lista de tareas.
 
-Eliminar tareas de la lista.
+Eliminar tareas.
 
-Almacenamiento de tareas en un archivo .txt.
+PHP puro sin necesidad de frameworks.
 
-📚 Tecnologías Utilizadas
+Estructura del Proyecto 📂
 
-PHP
+PHPBeginner/
+│── index.php        # Página principal con formulario y lista de tareas
+│── procesar.php     # Archivo para agregar tareas
+│── eliminar.php     # Archivo para eliminar tareas
+│── tareas.txt       # Archivo donde se guardan las tareas (simulando base de datos)
+│── styles.css       # Archivo de estilos opcional
+│── README.md        # Documentación del proyecto
 
-HTML
+Instalación 🚀
 
-CSS (Opcional, para mejorar el diseño)
+Clonar el repositorio:
 
-⚡ Instalación y Uso
+git clone https://github.com/ImJoselu/PHPBeginner.git
 
-Clonar el repositorio desde GitHub:
+Asegúrate de tener PHP instalado en tu sistema.
 
-git clone https://github.com/TU_USUARIO/TU_REPO.git
-
-Navegar hasta la carpeta del proyecto:
-
-cd TU_REPO
-
-Asegúrate de tener PHP instalado. Puedes verificarlo con:
-
-php -v
-
-Iniciar un servidor local de PHP:
+Inicia un servidor local en la carpeta del proyecto:
 
 php -S localhost:8000
 
-Abre tu navegador y ve a http://localhost:8000 para ver la aplicación en acción.
+Abre en tu navegador: http://localhost:8000/index.php
 
-🎨 Captura de Pantalla
+Mejoras futuras 🛠️
 
-Agrega una imagen de la interfaz aquí
+Guardar tareas en una base de datos (MySQL, SQLite).
 
-✅ Mejoras Futuras
+Agregar autenticación de usuarios.
 
-Agregar una base de datos (MySQL) para almacenamiento persistente.
+Implementar una API REST para gestionar tareas.
 
-Editar tareas existentes.
+Agregar estilos con Bootstrap o Tailwind.
 
-Mejorar el diseño con Bootstrap o Tailwind CSS.
+✍️ Creado por ImJoselu
+
